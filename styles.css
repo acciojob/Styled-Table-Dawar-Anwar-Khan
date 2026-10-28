@@ -1,1 +1,11 @@
-/* your code */
+table{
+  width: 100%;
+}
+
+tr:nth-child(odd){
+  background-color: gainsboro;
+}
+
+tr:first-child{
+  background-color: rgb(118, 118, 250);
+}
